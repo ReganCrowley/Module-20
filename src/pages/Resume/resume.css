@@ -1,0 +1,10 @@
+.skills {
+    list-style-type: square !important;
+    list-style-position: inside;
+    font-size: 1.25rem;
+    margin-left: 30px;
+}
+
+.resume_h2:hover {
+    color: blue;
+}

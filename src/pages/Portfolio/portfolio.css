@@ -1,0 +1,18 @@
+.imageTile {
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 20px;
+    width: 800px;
+    margin-left: 20%;
+}
+
+a {
+    text-decoration: none;
+}

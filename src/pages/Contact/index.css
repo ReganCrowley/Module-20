@@ -1,0 +1,28 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+form .group input,
+form .group textarea {
+}
+
+form .group input {
+}
+
+form .group input {
+}
+
+form .group label {
+  margin-bottom: 0.25rem;
+}
+
+form input[type='submit'] {
+}
+

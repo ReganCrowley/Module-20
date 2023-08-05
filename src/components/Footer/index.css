@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul > li {
+  padding: 0.5rem;
+}
+
+footer ul > li > a,
+footer ul > li > a > svg {
+  height: 2rem;
+  width: 2rem;
+}

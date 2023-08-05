@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 0 1rem;
+}
+
+header .logo {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    padding: 0.5rem 0;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul>li {
+    margin: 0 1rem;
+}
+
+header ul>li>a.active {
+    color: #45a552;
+}
